@@ -1,0 +1,147 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/* NAVBAR */
+nav .navbar-collapse.show {background-color: #f0f0f0 !important;border-radius: 4px;width: 100%;transition: all ease-in-out 0.3s;}
+nav .navbar-collapse.collapsing {background-color: #f0f0f0 !important;border-radius: 4px;width: 100%;transition: all ease-in-out 0.3s;}
+nav .navbar-collapse.collapsing .nav-link {	color: #3a3a3a !important;font-size: 18px;}
+nav .navbar-collapse.show ul {width: 100%;}
+nav .navbar-collapse.show .nav-link {color: #3a3a3a !important;	font-size: 18px;}
+.navbar .navbar-nav{margin-right: 80px!important; margin-top: 15px;}
+.navbar .navbar-nav .nav-item{margin: 0 20px;}
+.navbar .navbar-nav .nav-link{font-size: 20px; font-family: sans-serif; font-weight: 600; color: #ffffff; text-transform: uppercase;}
+.navbar .navbar-brand{transition: .3s ease-in-out; transform: scale(1);}
+.navbar .navbar-brand:hover{transform: scale(1.1);}
+
+nav.navbar {position: absolute;left: 0;right: 0;margin: auto;transition: all ease-in-out 0.3s;}
+.navbar-toggler {  padding: .25rem .25rem !important;  font-size: 1.25rem;  line-height: 1;  background-color: transparent; border: 1px solid transparent; border-radius: .25rem; transition: box-shadow .15s ease-in-out;  background: #FFF !important;
+    /* position: absolute; */
+    /* right: 10px; */
+    /* top: 10px; */
+}
+.navbar-toggler span {	background-image: url(./images/menu_icon.png);background-position: center;background-size: 100% 100%;background-repeat: no-repeat;width: 28px;height: 21px;}
+
+
+/* hero */
+#hero{background-image: url(./images/bg.png); background-position: center; background-size: right top; background-repeat: no-repeat; width: 100%; height: 340px;}
+#hero h1{margin-top: 140px; margin-bottom: 16px; color: #ffffff; font-size: 60px; font-weight: 900; font-family: sans-serif;}
+#hero h6{ color: #ffffff; font-weight: 600; font-size: 20px; font-family: sans-serif;}
+
+
+/* content */
+#content{padding: 80px 0;}
+#content p{font-family: sans-serif; font-size: 16px; font-weight: 600; color: #264E6F;}
+
+
+/* footer */
+.footer{background-image: linear-gradient(180deg, #2BA1D5 0%, #0D3658 100%); background-color: transparent;}
+#footer{background-image: url(./images/bg.png); background-position: center; background-size: right top; background-repeat: no-repeat; width: 100%; height: 360px;}
+
+
+
+/*******************
+	LIBRARY PAGE
+************************/
+#library{padding: 60px 0;}
+#library .col-md-4{margin: 12px 0;}
+#library .img-wrapper img{box-shadow: 1px 2px 20px #000000; transform: scale(1); transition: .3s ease-in-out; margin-bottom: 12px;}
+#library .img-wrapper img:hover{ transform: scale(1.1);}
+#library .text-area h4{font-size: 30px; margin-bottom: 6px; color: #264E6F; font-weight: 700;}
+#library .text-area p{font-size: 16px; color: #264E6F; font-weight: 500; line-height: 20px;}
+
+#hero .library-hero h6{margin-top: 250px; font-size: 48px; font-weight: 900;}
+#hero .library-hero h6 .fa{margin-right: 8px; font-size: 48px;}
+#hero .library-hero h6 a .fa{text-decoration: none; color: #ffffff;}
+
+
+/*******************
+	HADITH PAGE
+************************/
+#hadith{padding: 10px 0;}
+#library .img-wrapper img{box-shadow: 1px 2px 20px #000000; transform: scale(1); transition: .3s ease-in-out; margin-bottom: 12px;}
+#library .img-wrapper img:hover{ transform: scale(1.1);}
+#library .text-area h4{font-size: 30px; margin-bottom: 6px; color: #264E6F; font-weight: 700;}
+#library .text-area p{font-size: 16px; color: #264E6F; font-weight: 500; line-height: 20px;}
+
+#hero .hadith-hero h6{margin-top: 250px; font-size: 48px; font-weight: 900;}
+#hero .hadith-hero h6 .fa{margin-right: 8px; font-size: 48px;}
+#hero .hadith-hero h6 a .fa{text-decoration: none; color: #ffffff;}
+
+#hadith .col-md-12{margin: 30px auto; width: 85%;}
+#hadith .card{box-shadow: 1px 1px 24px #555555; border: none;}
+#hadith .card .card-header{background-color: #1F5581; color: #ffffff; font-size: 24px; font-weight: 900;}
+#hadith .card p.card-texts{font-size: 24px; line-height: 40px; font-weight: 500; padding: 20px 0; font-family: 'Montserrat', sans-serif;}
+#hadith .card .card-text{font-size: 16px; font-weight: 600; line-height: 28px; padding: 10px 0; font-family: 'Montserrat', sans-serif;}
+#hadith .card .card-footer{background-color: #1F5581; color: #ffffff; font-size: 16px; font-weight: 700;}
+#hadith .card .card-footer2{padding: 10px 0; margin: 0 22px;}
+#hadith .card .card-footer2 .btn{background-color: #1F5581; color: #ffffff; padding: 8px 28px; transition: .3s ease-in-out;}
+#hadith .card .card-footer2 .btn:hover{background-color: #ffffff; color: #1F5581;}
+
+
+@media screen and (max-width: 999px) {
+	#hero .hadith-hero h6{margin-top: 250px; font-size: 34px; font-weight: 900;}
+	#hero .hadith-hero h6 .fa{margin-right: 8px; font-size: 34px;}
+}
+
+@media screen and (max-width: 601px) {
+	#hero .hadith-hero h6{margin-top: 250px; font-size: 28px; font-weight: 900;}
+	#hero .hadith-hero h6 .fa{margin-right: 8px; font-size: 28px;}
+}
+
+@media screen and (max-width: 464px) {
+	#hero .hadith-hero h6{margin-top: 250px; font-size: 26px; font-weight: 900;}
+	#hero .hadith-hero h6 .fa{margin-right: 8px; font-size: 26px;}
+	#hadith .card .card-footer2 .btn{padding: 8px 12px;}
+}
+
+@media screen and (max-width: 410px) {
+	#hero .hadith-hero h6{margin-top: 250px; font-size: 24px; font-weight: 900;}
+	#hadith .card .card-footer2 .btn{padding: 8px;}
+}
+
+@media screen and (max-width: 377px) {
+	#hero .hadith-hero h6{margin-top: 250px; font-size: 24px; font-weight: 900;}
+	#hadith .card .card-footer2 .btn{padding: 10px; margin: 4px 0;}
+}
+
+@media screen and (max-width: 355px) {
+	#hero .hadith-hero h6{margin-top: 250px; font-size: 24px; font-weight: 900;}
+	#hadith .card .card-footer2 .btn{padding: 10px; margin: 4px 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query */
+@media screen and (max-width: 602px) {
+	.navbar .navbar-brand{width: 260px;}
+	#hero h1{margin-top: 140px; margin-bottom: 18px; color: #ffffff; font-size: 40px; font-weight: 800; font-family: sans-serif;}
+	#hero h6{ font-weight: 600; font-size: 16px;}
+}
+
+@media screen and (max-width: 420px) {
+	.navbar .navbar-brand{width: 240px;}
+	#hero h1{margin-top: 120px; margin-bottom: 18px;font-size: 36px;}
+	#hero h6{font-size: 16px;}
+}
+
+@media screen and (max-width: 370px) {
+	.navbar .navbar-brand{width: 220px;}
+	#hero h1{margin-top: 120px; margin-bottom: 14px;font-size: 30px;}
+	#hero h6{font-size: 16px;}
+	#content p{font-size: 14px; font-weight: 600;}
+}
